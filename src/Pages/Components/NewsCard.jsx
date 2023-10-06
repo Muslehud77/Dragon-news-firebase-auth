@@ -38,7 +38,7 @@ const NewsCard = ({ news }) => {
         <div className="p-3 space-y-3">
           <h2 className="text-3xl font-bold">{title}</h2>
           <div>
-            <img src={image_url} className="object-cover" alt="" />
+            <img src={image_url} className="object-cover w-full" alt="" />
           </div>
           <p className="mt-2">
             {details.slice(0, 254)}... <br />
